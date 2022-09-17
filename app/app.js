@@ -20,6 +20,6 @@ function initListeners() {
 }
 
 $(document).ready(function () {
-  //model.setCurrentPageContent("home");
+  model.setCurrentPageContent("home");
   initListeners();
 });
