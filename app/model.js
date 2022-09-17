@@ -156,7 +156,76 @@ var designersContent = `<div class="hero">
   </p>
 </div>
 </div>`;
-var visitContent = `<p>howdy</p>`;
+var visitContent = `<div class="hero">
+<h1>schedule an appointment with us</h1>
+</div>
+
+<div class="appointment-scheduler">
+<h3>fill out this form and we'll be in contact soon</h3>
+<div class="name">
+  <input type="text" placeholder="first name" />
+  <input type="text" placeholder="last name" />
+</div>
+<input type="tel" name="phone" placeholder="phone number" />
+<input type="text" placeholder="home zip code" />
+
+<div class="wedding-info">
+  <h3>tell us a bit about your special day</h3>
+  <input type="date" placeholder="wedding date" />
+  <input type="text" placeholder="wedding zip code" />
+  <div class="name">
+    <input type="text" placeholder="partner's first name" />
+    <input type="text" placeholder="partner's last name" />
+  </div>
+</div>
+
+<div class="dress-choices">
+  <h3>let us know if you have any preferences for dresses already</h3>
+  <textarea
+    name=""
+    id=""
+    cols="30"
+    rows="10"
+    placeholder="wedding dress preferences"
+  ></textarea>
+
+  <h3>let us know what size range to get ready for you</h3>
+  <select>
+    <option>0-6</option>
+    <option>8-14</option>
+    <option>16-20</option>
+    <option>22+</option>
+  </select>
+</div>
+
+<div class="guests">
+  <h3>you may bring up to three guests with you to your appointment</h3>
+  <div class="name">
+    <input type="text" placeholder="first name" />
+    <input type="text" placeholder="last name" />
+  </div>
+  <div class="name">
+    <input type="text" placeholder="first name" />
+    <input type="text" placeholder="last name" />
+  </div>
+  <div class="name">
+    <input type="text" placeholder="first name" />
+    <input type="text" placeholder="last name" />
+  </div>
+</div>
+
+<button id="appointment">Submit your information</button>
+</div>`;
+var appointmentContent = `<div class="hero">
+<h1>your information is submitted!</h1>
+</div>
+<div class="confirm">
+<h3>
+  we're so excited to help you find the dress of your dreams. we'll be
+  in contact very soon to schedule your appointment. look out for a call
+  from us!
+</h3>
+</div>`;
 export function setCurrentPageContent(pageId) {
   let contentName = pageId + "Content";
   $("#app").html(eval(contentName));

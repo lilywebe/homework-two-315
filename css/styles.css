@@ -244,7 +244,7 @@ footer .footer-items .socials {
 }
 .our-testimonials #our-customers {
   color: white;
-  background-color: #E4B4B4;
+  background-color: #9DA993;
   border-radius: 30px;
   font-size: 30px;
   width: 250px;
@@ -264,7 +264,7 @@ footer .footer-items .socials {
   height: 200px;
   max-width: 30%;
   color: white;
-  background-color: #9DA993;
+  background-color: #E4B4B4;
   border-radius: 30px;
   text-align: center;
   padding-top: 50px;
@@ -301,12 +301,85 @@ footer .footer-items .socials {
   color: white;
   background-color: #E4B4B4;
   border-radius: 30px;
-  height: 250px;
+  min-height: 250px;
   padding: 20px;
   padding-top: 50px;
 }
 .designer-feature .designer-info h3 {
   font-size: 25px;
+}
+
+.appointment-scheduler {
+  min-height: 1500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  background-color: #E4B4B4;
+  color: white;
+  padding-top: 50px;
+}
+.appointment-scheduler input {
+  height: 50px;
+  width: 250px;
+  background-color: #E3E8E9;
+  border-width: 1px;
+  padding-left: 10px;
+  margin: 20px;
+}
+.appointment-scheduler .name {
+  text-align: center;
+}
+.appointment-scheduler .wedding-info {
+  text-align: center;
+  margin: 20px;
+}
+.appointment-scheduler .wedding-info h3 {
+  margin-bottom: 50px;
+}
+.appointment-scheduler .dress-choices {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.appointment-scheduler .dress-choices h3 {
+  margin-bottom: 50px;
+}
+.appointment-scheduler .dress-choices textarea {
+  margin-bottom: 50px;
+}
+.appointment-scheduler .guests {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.appointment-scheduler .guests h3 {
+  margin-bottom: 50px;
+}
+.appointment-scheduler button {
+  margin: 50px;
+  height: 50px;
+  width: 200px;
+  background-color: #9DA993;
+  border-color: #9DA993;
+  color: #E3E8E9;
+  border-radius: 20px;
+  font-size: medium;
+}
+
+.confirm {
+  background-color: #E4B4B4;
+  height: 200px;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  padding: 50px;
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -6,6 +6,17 @@ function initListeners() {
     let btnId = e.currentTarget.id;
     model.setCurrentPageContent(btnId);
   });
+  $("footer a").click((e) => {
+    e.preventDefault();
+    let btnId = e.currentTarget.id;
+    model.setCurrentPageContent(btnId);
+  });
+
+  $(".appointment-scheduler button").click((e) => {
+    e.preventDefault();
+    let btnId = e.currentTarget.id;
+    model.setCurrentPageContent(btnId);
+  });
 }
 
 $(document).ready(function () {
