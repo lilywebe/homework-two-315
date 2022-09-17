@@ -1,0 +1,53 @@
+.designer-feature{
+
+    max-width:90%;
+    margin:0 auto;
+    margin-top:100px;
+    margin-bottom:50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    &:nth-child(even){
+        flex-direction: row-reverse;
+    }
+
+    .designer-image{
+        img{
+            height:400px;
+        width:400px;
+
+        
+        }
+    }
+    .designer-image-tall{
+        img{
+            height:500px;
+        width:350px;
+        }
+    }
+    .designer-image-wide{
+        img{
+            width:500px;
+        height:350px;
+        }
+    }
+
+    .designer-info{
+        width:30%;
+        text-align:center;
+        color:white;
+        background-color: #E4B4B4;
+        border-radius: 30px;
+        height: 250px;
+        padding:20px;
+        padding-top:50px;
+
+        h3{
+            font-size:25px;
+        }
+
+        
+    }
+    
+}

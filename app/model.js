@@ -97,7 +97,65 @@ var aboutContent = ` <div class="hero">
   </div>
 </div>
 </div>`;
-var designersContent = ``;
+var designersContent = `<div class="hero">
+<h1>our featured designers this month</h1>
+</div>
+<div class="designer-feature">
+<div class="designer-image">
+  <img src="images/BlackBridalGownDesigners.jpg" alt="" />
+</div>
+<div class="designer-info">
+  <h3>Jane Doe</h3>
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
+    iusto quo assumenda ipsa consectetur magni sunt excepturi
+    reiciendis, suscipit tempora, maxime, asperiores unde harum
+    distinctio ratione temporibus? Repellendus, sit labore.
+  </p>
+</div>
+</div>
+<div class="designer-feature">
+<div class="designer-image-tall">
+  <img src="images/Galia-Lahav.jpeg" alt="" />
+</div>
+<div class="designer-info">
+  <h3>Stella Smith</h3>
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
+    iusto quo assumenda ipsa consectetur magni sunt excepturi
+    reiciendis, suscipit tempora, maxime, asperiores unde harum
+    distinctio ratione temporibus? Repellendus, sit labore.
+  </p>
+</div>
+</div>
+<div class="designer-feature">
+<div class="designer-image-wide">
+  <img src="images/israeli-designer.jpg" alt="" />
+</div>
+<div class="designer-info">
+  <h3>Mary Lamb</h3>
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
+    iusto quo assumenda ipsa consectetur magni sunt excepturi
+    reiciendis, suscipit tempora, maxime, asperiores unde harum
+    distinctio ratione temporibus? Repellendus, sit labore.
+  </p>
+</div>
+</div>
+<div class="designer-feature">
+<div class="designer-image-tall">
+  <img src="images/mwl-riley.jpg" alt="" />
+</div>
+<div class="designer-info">
+  <h3>Brita Filten</h3>
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
+    iusto quo assumenda ipsa consectetur magni sunt excepturi
+    reiciendis, suscipit tempora, maxime, asperiores unde harum
+    distinctio ratione temporibus? Repellendus, sit labore.
+  </p>
+</div>
+</div>`;
 var visitContent = `<p>howdy</p>`;
 export function setCurrentPageContent(pageId) {
   let contentName = pageId + "Content";
