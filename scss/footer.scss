@@ -1,0 +1,48 @@
+footer{
+    width:100%;
+    background-color:#E4B4B4;
+    height:200px;
+
+    .footer-items{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        width:90%;
+        margin: 0 auto;
+
+        .navigation-footer{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+            padding-top: 50px;
+            height:150px;
+            width:25%;
+            a{
+                color:white;
+            text-decoration: none;
+            }
+
+        }
+        .contact-info-footer{
+            padding-top: 50px;
+            height:150px;
+            width:25%;
+            color:white;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+        }
+        .socials{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            padding-top:50px;
+            width:25%;
+            color:white;
+            
+        }
+    }
+}

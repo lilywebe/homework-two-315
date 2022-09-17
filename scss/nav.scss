@@ -1,14 +1,28 @@
 nav{
-    height:50px;
-    background-color: pink;
+    height:100px;
+    background-color: #E4B4B4;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+
+    #links{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width:750px;
+    }
+
+
     
 
     a{
         color:white;
         text-decoration: none;
+        
+    }
+    img{
+        height:100px;
+        color:white;
         
     }
 }

@@ -5,18 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>MVC</title>
   </head>
   <body>
     <nav>
-      <a id="home" href="#">HOME</a>
-      <a id="about" href="#">ABOUT</a>
-      <a id="products" href="#">PRODUCTS</a>
-      <a id="contact" href="#">CONTACT</a>
+      <div class="logo">
+        <a id="home" href="#"
+          ><img src="images/output-onlinepngtools.png" alt=""
+        /></a>
+      </div>
+      <div id="links">
+        <a id="home" href="#">home</a>
+        <a id="about" href="#">about</a>
+        <a id="designers" href="#">designers we love</a>
+        <a id="visit" href="#">find your dress</a>
+      </div>
     </nav>
-
     <div id="app"></div>
-
+    <footer>
+      <div class="footer-items">
+        <div class="navigation-footer">
+          <a id="home" href="#">home</a>
+          <a id="about" href="#">about</a>
+          <a id="designers" href="#">designers we love</a>
+          <a id="visit" href="#">find your dress</a>
+        </div>
+        <div class="contact-info-footer">
+          <p>address: 123 Main Street</p>
+          <p>Indianapolis, IN 46217</p>
+          <p>phone: 317-555-5555</p>
+          <p>email: ultimatebride@gmail.com</p>
+        </div>
+        <div class="socials">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+      </div>
+    </footer>
     <script src="lib/jquery-3.6.1.min.js"></script>
     <script type="module" src="app/model.js"></script>
     <script type="module" src="app/app.js"></script>
