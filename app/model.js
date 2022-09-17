@@ -37,8 +37,67 @@ var homeContent = `      <div class="home-hero">
   <p>phone: 317-555-5555</p>
 </div>
 </div>`;
-var aboutContent = "<p>hi</p>";
-var designersContent = `<p>sup</p>`;
+var aboutContent = ` <div class="hero">
+<h1>what makes the ultimate bride special?</h1>
+</div>
+<div class="our-owner">
+<div class="owner-name">
+  <h3>Our Founder and CEO: Jane Smith</h3>
+</div>
+<div class="owner-img">
+  <img src="images/owner.png" alt="" />
+</div>
+<div class="owner-bio">
+  <p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit
+    voluptas id molestias cumque neque adipisci sequi atque magni non,
+    iusto vitae illum corporis enim fugit molestiae facere accusantium
+    suscipit beatae earum consequatur aspernatur ab provident ipsum!
+    Aperiam blanditiis corrupti recusandae rem quae, porro quia alias
+    necessitatibus maxime saepe numquam exercitationem neque possimus
+    placeat fuga, commodi veritatis incidunt est quo. Magni esse quidem
+    tenetur necessitatibus cum consectetur, inventore ut eos, quod
+    voluptatum beatae exercitationem, laborum eveniet assumenda mollitia
+    porro cumque adipisci omnis asperiores minima! Non a recusandae in.
+    Repudiandae porro, aperiam, eos voluptates deleniti, commodi rem
+    omnis officiis eum pariatur quos.
+  </p>
+</div>
+</div>
+<div class="our-testimonials">
+<h3 id="our-customers">our customers</h3>
+<div class="testimonials">
+  <div class="card">
+    <p>
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+      nostrum repellendus suscipit aspernatur quas, dolores sunt eaque
+      fugiat omnis quae molestiae quod eos unde aut commodi perferendis
+      deserunt, quia neque. Lorem ipsum dolor sit amet."
+    </p>
+    <h3>-Alyssa, 2020 bride</h3>
+  </div>
+  <div class="card">
+    <p>
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+      nostrum repellendus suscipit aspernatur quas, dolores sunt eaque
+      fugiat omnis quae molestiae quod eos unde aut commodi perferendis
+      deserunt, quia neque Lorem ipsum dolor sit amet, consectetur
+      adipisicing elit. Debitis, quae!"
+    </p>
+    <h3>-Sarah, 2015 bride</h3>
+  </div>
+  <div class="card">
+    <p>
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+      nostrum repellendus suscipit aspernatur quas, dolores sunt eaque
+      fugiat omnis quae molestiae quod eos unde aut commodi perferendis
+      deserunt, quia neque."
+    </p>
+    <h3>-Ebony, 2021 bride</h3>
+  </div>
+</div>
+</div>`;
+var designersContent = ``;
 var visitContent = `<p>howdy</p>`;
 export function setCurrentPageContent(pageId) {
   let contentName = pageId + "Content";
